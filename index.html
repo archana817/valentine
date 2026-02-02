@@ -47,12 +47,12 @@
   <div class="card" id="card">
     <h1>Will you be my Valentine? ❤️</h1>
     <p>I was going to buy a card… but I decided to code one just for you 💻💖<br><br>
-      </strong>Dare to click "No"or be a good husband and click yes😍<strong></strong><p></p>
+      </strong>Dare to click "No"or be a good husband 😍<strong></strong><p></p>
     <button id="yesBtn" onclick="sayYes()">Yes 💕</button>
     <button id="noBtn" onmouseover="moveNo()">No 🙃</button>
   </div>
   <script>
-    const hisName = "My Love"; // Change this to his name
+    const hisName = "kanxu"; // Change this to his name
     function moveNo() {
       const noBtn = document.getElementById("noBtn");
       const x = Math.random() * (window.innerWidth - 100);
@@ -64,7 +64,7 @@
       document.getElementById("card").innerHTML = `
         <h1>YAYYYYY ❤️🥹</h1>
         <p>${hisName},you are my morning coffee,my cozy blanket,and my reason to smile on monday mornings❤️</p>
-        <p>Happy Valentine’s Day ❤️</p>
+        <p>will you be my valentine?❤️</p>
       `;
     }
     setInterval(() => {
